@@ -1,0 +1,303 @@
+body {
+  font-family: "Manrope", Courier, monospace;
+  background: #f5f5f5;
+  min-width: 1400px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.wrapper {
+  width: 1400px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding-bottom: 149px;
+}
+header {
+  padding: 32.82px 125px 0px 125px;
+}
+footer {
+  padding: 58px 0 30px 0;
+}
+.section__nopadd {
+  padding: 0;
+  width: 100%;
+}
+.container-black {
+  width: 100%;
+  background-color: #121212;
+  margin: auto;
+  padding-bottom: 90px;
+}
+.container-black h1,
+.container-black h2,
+.container-black h3 {
+  color: #fff;
+}
+section {
+  padding: 150px 125px 0 125px;
+  margin: auto;
+  width: 1400px;
+}
+
+section:nth-child(2) {
+  padding-top: 70px;
+}
+
+.section-long {
+  padding-bottom: 88px;
+}
+
+h1,
+h2,
+h3,
+.paragraph,
+.menu__nav-link,
+.contacts__mail,
+.contacts__phone {
+  letter-spacing: -0.03em;
+  color: #121212;
+}
+
+h1 {
+  width: 956px;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 400;
+  padding-bottom: 30px;
+  font-style: normal;
+}
+h2 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  padding-bottom: 30px;
+  margin-left: 1px;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 30px;
+  line-height: 41px;
+  font-style: normal;
+}
+.information {
+  width: 1078px;
+  font-size: 45px;
+  line-height: 61px;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  margin-left: 2.9px;
+}
+.title-photo {
+  width: 1150px;
+  height: 500px;
+  background-image: url("../resources/foto-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.title-photo__text {
+  position: absolute;
+  width: 430px;
+  height: 81px;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  left: 40px;
+  top: 382px;
+  bottom: 40px;
+}
+
+.button-servies {
+  display: inline-block;
+  border-radius: 5px;
+  width: 255px;
+  height: 67px;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+  line-height: 66px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ad1818;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.project__foto {
+  width: 1150px;
+  height: 450px;
+  margin-bottom: 14px;
+}
+.project__description {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  margin-bottom: 15px;
+  font-style: normal;
+}
+.services {
+  margin-top: 4px;
+}
+.service__image {
+  margin-bottom: 14px;
+}
+.service__description {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  font-style: normal;
+  padding-left: 4px;
+  padding-bottom: 60px;
+}
+.project__link {
+  color: #ad1818;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+}
+.project {
+  margin-bottom: 90px;
+}
+.projects__look-all {
+  display: block;
+  width: 100%;
+  height: 153px;
+  line-height: 153px;
+  margin-top: -2px;
+  margin-bottom: 2px;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  color: #ad1818;
+  font-size: 30px;
+  letter-spacing: -0.03em;
+}
+.projects__look-all:hover {
+  background-color: #ad1818;
+  color: #fff;
+}
+
+.FullViewImage {
+  min-width: 1400px;
+  height: 717px;
+  background-size: cover;
+  position: relative;
+  background-image: url("../resources/sleeping-bed.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.FullViewImage__Text {
+  position: absolute;
+  bottom: 60px;
+  left: 125px;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  background-repeat: no-repeat;
+}
+.menu {
+  height: 25.18px;
+  margin: 0 auto;
+}
+
+.menu__logo {
+  width: 126.89px;
+  height: 21.42;
+}
+.menu__nav {
+  float: right;
+  margin-top: -1px;
+}
+.menu__nav-link {
+  line-height: 25px;
+  font-weight: 400px;
+  font-size: 18px;
+  letter-spacing: -0.03em;
+  margin-left: 57px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu__nav-link:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.info {
+  padding-bottom: 163px;
+}
+.info-margin {
+  margin-top: 29px;
+}
+.phone-before::before {
+  content: "";
+  display: block;
+  margin-bottom: 13px;
+  margin-left: -5px;
+  width: 24px;
+  height: 24px;
+  background-image: url("../resources/telephone-img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contacts__phone {
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.contacts__phone span {
+  padding-left: 10px;
+  letter-spacing: -0.025em;
+}
+.contacts__mail {
+  font-size: 60px;
+  line-height: 60px;
+  margin-left: 1px;
+  opacity: 0.5;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+.footer__title {
+  margin-top: 88px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  opacity: 0.5;
+  padding-left: 7px;
+}
+.footernav__link {
+  margin-left: 50px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.footernav__link:first-child {
+  margin: 0;
+}
+.footernav__link:last-child {
+  margin-left: 53px;
+}
+.footernav__link:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.footernav {
+  width: 453px;
+  margin: auto;
+}
